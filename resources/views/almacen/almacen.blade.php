@@ -3,7 +3,7 @@
 @if(Session::has('mensaje'))  <!--informar que se agrego registro-->
 {{Session::get('mensaje')}}
 @endif
-
+<!--cambiooooooooo-->
 <a href="{{url('almacen/create')}}">Registrar Nuevo almacen</a>
 <table>
     <thead>
